@@ -1,6 +1,6 @@
 # Privacy Through Views
 
-The Policy Generator is a Python Script that starts a GUI and is used to help generate the XML files the backend needs to enforce the views. To run it needs to be connected to a database so that it can check the validity of views.
+The Policy Generator is a Python Script that starts a GUI and is used to help generate the XML files the backend needs to enforce the views. To run it needs to be connected to a database so that it can check the validity of views. After setting the policy it outputs an XML file to be used by the backend.
 
 To install the tool:
 Download and unzip CustomInterceptor.zip and install the 3 jar files in the external libraries folder of the web application, e.g. WebContent/WEB-INF/lib/. Then modify the web application to use the new custom.jar instead of the default one by passing it as an argument when setting up the Java Database Connector, as follows:
